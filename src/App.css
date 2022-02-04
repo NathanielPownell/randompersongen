@@ -5,6 +5,8 @@
 
 .App {
   text-align: center;
+  overflow-x:hidden;
+
 }
 
 .Hero {
@@ -110,4 +112,34 @@
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.315);
 
   background: white;
+}
+
+
+@media screen and (max-width: 600px) {
+  .Hero {
+    height: 100vh;
+  }
+  .card {
+    max-width: 90vw;
+  }
+  .About {
+    width: 100vw;
+  }
+  .About p{
+    width: 80vw;
+  }
+  .Description {
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+  }
+  .Code {
+    font-size: .7em;
+  }
+  .Description h1 {
+    font-size: 1em;
+  }
+  .Description div {
+    max-width: 80vw;
+  }
 }
