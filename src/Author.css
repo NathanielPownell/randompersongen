@@ -1,0 +1,26 @@
+.authorCard {
+    background: white;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.315);
+    padding: 20px;
+}
+
+.authorCard > a {
+    color: black;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.authorImg{
+    border-radius: 800px;
+    width: 200px;
+}
+
+.author_social {
+    display: flex;
+    align-items: center;
+    color: black;
+}
