@@ -12,7 +12,7 @@ function App() {
 
   const getData = () => {
     setIsLoading(true)
-    axios.get("http://localhost:8000/api/").then(res => {
+    axios.get("https://randompersonapi-app.herokuapp.com/api/").then(res => {
       data = res.data
       setDataSet(data)
       console.log(data)
@@ -87,7 +87,7 @@ function App() {
               <div className='codeNote'>
                 /* Returns either male or female person. */
               </div>
-              axios.get("http://localhost:8000/api/")
+              axios.get("https://randompersonapi-app.herokuapp.com/api/")
             </div>
           </div>
           <p> <b>JSON Response: </b></p>
@@ -105,7 +105,7 @@ function App() {
               <div className='codeNote'>
                 /* Returns random male person. */
               </div>
-              axios.get("http://localhost:8000/api/male/")
+              axios.get("https://randompersonapi-app.herokuapp.com/api/male/")
             </div>
           </div>
           <p> <b>JSON Response: </b></p>
@@ -124,7 +124,7 @@ function App() {
               <div className='codeNote'>
                 /* Returns random female person. */
               </div>
-              axios.get("http://localhost:8000/api/female/")
+              axios.get("https://randompersonapi-app.herokuapp.com/api/female/")
             </div>
           </div>
           <p> <b>JSON Response: </b></p>
